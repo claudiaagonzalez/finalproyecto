@@ -1,0 +1,37 @@
+header{
+    width: 100vw;
+    height: 13vh;
+
+
+    #navBar{
+        width: 100vw;
+        z-index: 100;
+        box-shadow: 7px 5px 5px;
+        margin-bottom: 5px;
+        background: red;
+    }
+
+    #logoBridge{
+        width: 85px;
+        height: 55px;
+        margin-right: 100px;
+        border: 0.5px solid black;
+        border-radius: 15%;
+    }
+
+    .navbar-nav{
+        li {
+            margin-right: 100px;
+            margin-bottom: 5px;
+
+            a{
+                color: white !important;
+                font-size: 20px;
+
+                &:hover{
+                    background-color: blue;
+                }
+            }
+        }
+    }
+}

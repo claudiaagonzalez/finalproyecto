@@ -1,0 +1,125 @@
+header {
+  width: 100vw;
+  height: 13vh;
+}
+header #navBar {
+  width: 100vw;
+  z-index: 100;
+  -webkit-box-shadow: 7px 5px 5px;
+          box-shadow: 7px 5px 5px;
+  margin-bottom: 5px;
+  background: red;
+}
+header #logoBridge {
+  width: 85px;
+  height: 55px;
+  margin-right: 100px;
+  border: 0.5px solid black;
+  border-radius: 15%;
+}
+header .navbar-nav li {
+  margin-right: 100px;
+  margin-bottom: 5px;
+}
+header .navbar-nav li a {
+  color: white !important;
+  font-size: 20px;
+}
+header .navbar-nav li a:hover {
+  background-color: blue;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+main #carou {
+  margin-top: 10px;
+}
+main h1 {
+  font-family: "Berkshire Swash", cursive;
+  text-align: center;
+  color: blue;
+  margin-top: 5px;
+}
+main p {
+  text-align: center;
+}
+main .bannerSedes {
+  background: rgb(245, 23, 23);
+  height: 170px;
+}
+main .fontSedes {
+  color: rgb(250, 87, 87);
+  text-align: center;
+  font-size: 120px;
+}
+main .contactoText {
+  color: blue;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main .btn {
+  color: white;
+  background: blue;
+  border-radius: 20px 20px 20px 20px;
+}
+main .btn:hover {
+  color: white;
+}
+main #infoContacto {
+  border: 0.5px solid blue;
+  border-radius: 20px 20px 20px 20px;
+  height: 70px;
+  color: blue;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+main .infoContacto {
+  font-size: 20px;
+  text-align: center;
+}
+main .card {
+  margin-left: 20px;
+}
+
+footer {
+  width: 100vw;
+  height: 10vh;
+  background: rgb(24, 24, 247);
+}
+footer #datos {
+  margin-top: 10px;
+}
+footer #datos h2 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+body a .float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+body a .float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
+}
+body a .float .my-float {
+  margin-top: 16px;
+}
