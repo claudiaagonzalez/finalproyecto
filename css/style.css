@@ -83,6 +83,14 @@ main .infoContacto {
 main .card {
   margin-left: 20px;
 }
+main .card:hover {
+  -webkit-transform: translate(20px);
+          transform: translate(20px);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
 
 footer {
   width: 100vw;

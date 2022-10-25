@@ -61,5 +61,10 @@ main{
 
     .card{
         margin-left: 20px;
+
+        &:hover{
+            transform: translate(20px);
+            transition: transform 1s;
+        }
     }
 }
