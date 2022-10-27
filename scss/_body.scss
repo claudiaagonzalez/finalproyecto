@@ -1,4 +1,7 @@
 body{
+    width: 100vw;
+    height: 100vh;
+
     a{
         .float{
             position:fixed;
@@ -25,7 +28,23 @@ body{
             }
         }
     }
+
+    @media only screen and (max-width: 1200px) {
+        width: 100vw;
+        height: 100vh;
+        
+    }
+
+    @media only screen and (max-width: 992px) {
+        
+    }
+
+    @media only screen and (max-width:768px) {
+        
+    }
+
+    @media only screen and (max-width:576px) {
+        
+    }
+
 }
-
-
-

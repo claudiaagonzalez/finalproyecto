@@ -34,4 +34,53 @@ header{
             }
         }
     }
+
+    @media only screen and (max-width: 1200px) {
+        #navBar{
+            background: blue;
+            width: 100vw;
+            height: 10vh;
+        }
+
+        #logoBridge{
+            height: 45px;
+            width: 65px;
+        }
+
+        .navbar-nav{
+
+            li{
+                text-align: center;
+                margin-top: 10px;
+
+                a{
+                    font-size: 18px;
+
+                    &:hover{
+                        background-color: red;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+
+        #navBar{
+            height: 55px;
+            width: 100vw;
+        }
+        
+    }
+
+    @media only screen and (max-width:768px) {
+
+    }
+
+    @media only screen and (max-width:576px) {
+        
+    }
 }
+
+
+    

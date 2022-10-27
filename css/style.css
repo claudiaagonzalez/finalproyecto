@@ -28,7 +28,33 @@ header .navbar-nav li a {
 header .navbar-nav li a:hover {
   background-color: blue;
 }
-
+@media only screen and (max-width: 1200px) {
+  header #navBar {
+    background: blue;
+    width: 100vw;
+    height: 10vh;
+  }
+  header #logoBridge {
+    height: 45px;
+    width: 65px;
+  }
+  header .navbar-nav li {
+    text-align: center;
+    margin-top: 10px;
+  }
+  header .navbar-nav li a {
+    font-size: 18px;
+  }
+  header .navbar-nav li a:hover {
+    background-color: red;
+  }
+}
+@media only screen and (max-width: 992px) {
+  header #navBar {
+    height: 55px;
+    width: 100vw;
+  }
+}
 main {
   width: 100vw;
   height: 100vh;
@@ -46,11 +72,11 @@ main p {
   text-align: center;
 }
 main .bannerSedes {
-  background: rgb(245, 23, 23);
+  background: blue;
   height: 170px;
 }
 main .fontSedes {
-  color: rgb(250, 87, 87);
+  color: rgb(105, 105, 240);
   text-align: center;
   font-size: 120px;
 }
@@ -91,7 +117,69 @@ main .card:hover {
   transition: transform 1s;
   transition: transform 1s, -webkit-transform 1s;
 }
-
+main #examInter {
+  margin-top: 20px;
+}
+main #examInter2 {
+  margin-top: 20px;
+}
+@media only screen and (max-width: 1200px) {
+  main #carou {
+    height: 70vh;
+    width: 90vw;
+    margin-left: 60px;
+  }
+  main h1 {
+    font-size: 30px;
+    color: red;
+  }
+  main p {
+    text-align: center;
+    font-family: "Berkshire Swash", cursive;
+    font-size: 15px;
+  }
+  main .bannerSedes {
+    background: rgb(250, 0, 0);
+    height: 150px;
+  }
+  main .fontSedes {
+    color: rgb(248, 90, 90);
+  }
+  main .card {
+    height: 45vh;
+    width: 500px;
+    margin-left: 60px;
+  }
+  main .img-fluid {
+    height: 250px;
+    margin-top: 3px;
+  }
+  main #examInter {
+    width: 50px;
+    height: 30px;
+  }
+  main #examInter2 {
+    width: 50px;
+    height: 10px;
+    margin-left: 500px;
+    margin-top: 100px;
+  }
+  main .btn {
+    background: red;
+  }
+  main #infoContacto {
+    border: 0.5px solid red;
+    height: 70px;
+    width: 390px;
+    color: blue;
+  }
+  main .infoContacto {
+    margin-top: 5px;
+  }
+  main #mapLocation {
+    display: none;
+  }
+}
 footer {
   width: 100vw;
   height: 10vh;
@@ -107,7 +195,10 @@ footer #datos h2 {
   text-align: center;
   margin-bottom: 0;
 }
-
+body {
+  width: 100vw;
+  height: 100vh;
+}
 body a .float {
   position: fixed;
   width: 60px;
@@ -130,4 +221,10 @@ body a .float:hover {
 }
 body a .float .my-float {
   margin-top: 16px;
+}
+@media only screen and (max-width: 1200px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
 }
