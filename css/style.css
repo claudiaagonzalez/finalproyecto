@@ -5,8 +5,7 @@ header {
 header #navBar {
   width: 100vw;
   z-index: 100;
-  -webkit-box-shadow: 7px 5px 5px;
-          box-shadow: 7px 5px 5px;
+  box-shadow: 7px 5px 5px;
   margin-bottom: 5px;
   background: red;
 }
@@ -51,8 +50,19 @@ header .navbar-nav li a:hover {
 }
 @media only screen and (max-width: 992px) {
   header #navBar {
-    height: 55px;
     width: 100vw;
+  }
+  header .navbar-nav li {
+    margin-top: 14px;
+  }
+  header .navbar-nav li a {
+    font-size: 16px;
+  }
+  header .navbar-nav li a:hover {
+    background-color: red;
+  }
+  header .navbar-nav #mediasQ {
+    margin-top: 7px;
   }
 }
 main {
@@ -110,12 +120,8 @@ main .card {
   margin-left: 20px;
 }
 main .card:hover {
-  -webkit-transform: translate(20px);
-          transform: translate(20px);
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
+  transform: translate(20px);
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
 }
 main #examInter {
   margin-top: 20px;
@@ -180,6 +186,78 @@ main #examInter2 {
     display: none;
   }
 }
+@media only screen and (max-width: 992px) {
+  main #carou {
+    height: 60vh;
+    width: 90vw;
+    margin-left: 50px;
+  }
+  main h1 {
+    font-size: 40px;
+    color: red;
+  }
+  main .cursosText {
+    font-size: 25px;
+  }
+  main p {
+    text-align: center;
+    font-family: "Berkshire Swash", cursive;
+    font-size: 20px;
+  }
+  main #textCursos {
+    font-size: 13px;
+  }
+  main #textCursos2 {
+    font-size: 15px;
+  }
+  main #textCursos3 {
+    font-size: 13px;
+  }
+  main #textCursos4 {
+    font-size: 15px;
+  }
+  main .bannerSedes {
+    height: 110px;
+  }
+  main .fontSedes {
+    font-size: 70px;
+  }
+  main .card {
+    height: 45vh;
+    width: 435px;
+    margin-left: 50px;
+  }
+  main .img-fluid {
+    height: 250px;
+    margin-top: 5px;
+  }
+  main #examInter {
+    height: 30px;
+    margin-top: 0;
+  }
+  main #examInter2 {
+    height: 10px;
+    margin-left: 300px;
+    margin-top: 160px;
+  }
+  main #textAl {
+    font-size: 17px;
+  }
+  main #textExinter {
+    font-size: 17px;
+  }
+  main #infoContacto {
+    width: 600px;
+    color: blue;
+    margin-top: 30px;
+  }
+  main .contactoText {
+    font-size: 30px;
+    font-family: "Berkshire Swash", cursive;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
 footer {
   width: 100vw;
   height: 10vh;
@@ -210,8 +288,7 @@ body a .float {
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  -webkit-box-shadow: 2px 2px 3px #999;
-          box-shadow: 2px 2px 3px #999;
+  box-shadow: 2px 2px 3px #999;
   z-index: 100;
 }
 body a .float:hover {
@@ -228,3 +305,9 @@ body a .float .my-float {
     height: 100vh;
   }
 }
+@media only screen and (max-width: 992px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+}/*# sourceMappingURL=style.css.map */

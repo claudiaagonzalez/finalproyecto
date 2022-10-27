@@ -149,8 +149,113 @@ main{
         }
     }
 
+
+
     @media only screen and (max-width: 992px) {
-        
+
+        #carou{
+            height: 60vh;
+            width: 90vw;
+            margin-left: 50px;
+        }
+
+
+        h1{
+            font-size: 40px;
+            color: red;
+        }
+
+
+        .cursosText{
+            font-size: 25px;
+
+        }
+    
+
+        p{
+            text-align: center;
+            font-family: 'Berkshire Swash', cursive;
+            font-size: 20px;
+        }
+
+
+        #textCursos{
+            font-size: 13px;
+        }
+
+
+        #textCursos2{
+            font-size: 15px;
+        }
+
+
+        #textCursos3{
+            font-size: 13px;
+        }
+
+
+        #textCursos4{
+            font-size: 15px;
+            
+        }
+
+
+        .bannerSedes{
+            height: 110px;
+        }
+    
+
+        .fontSedes{
+            font-size: 70px;
+        }
+
+
+        .card{
+            height: 45vh;
+            width: 435px;
+            margin-left: 50px;
+        }
+
+
+        .img-fluid{
+            height: 250px;
+            margin-top: 5px;
+        }
+
+        #examInter{
+            height: 30px;
+            margin-top: 0;
+        }
+
+        #examInter2{
+            height: 10px;
+            margin-left: 300px;
+            margin-top: 160px;
+        }
+
+
+        #textAl{
+            font-size: 17px;
+        }
+
+
+        #textExinter{
+            font-size: 17px;
+        }
+
+        #infoContacto{
+            width: 600px;
+            color: blue;
+            margin-top: 30px;
+        }
+
+
+        .contactoText{
+            font-size: 30px;
+            font-family: 'Berkshire Swash', cursive;
+            text-align: center;
+            margin-bottom: 10px;
+        }
     }
 
     @media only screen and (max-width:768px) {

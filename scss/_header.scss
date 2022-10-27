@@ -3,7 +3,7 @@ header{
     height: 13vh;
 
 
-    #navBar{
+    #navBar {
         width: 100vw;
         z-index: 100;
         box-shadow: 7px 5px 5px;
@@ -11,7 +11,7 @@ header{
         background: red;
     }
 
-    #logoBridge{
+    #logoBridge {
         width: 85px;
         height: 55px;
         margin-right: 100px;
@@ -36,13 +36,14 @@ header{
     }
 
     @media only screen and (max-width: 1200px) {
-        #navBar{
+
+        #navBar {
             background: blue;
             width: 100vw;
             height: 10vh;
         }
 
-        #logoBridge{
+        #logoBridge {
             height: 45px;
             width: 65px;
         }
@@ -67,10 +68,26 @@ header{
     @media only screen and (max-width: 992px) {
 
         #navBar{
-            height: 55px;
             width: 100vw;
         }
-        
+
+        .navbar-nav{
+            li{
+                margin-top: 14px;
+
+                a{
+                    font-size: 16px;
+
+                    &:hover{
+                        background-color: red;
+                    }
+                }    
+            }
+
+            #mediasQ{
+                    margin-top: 7px;
+                }
+        }
     }
 
     @media only screen and (max-width:768px) {
