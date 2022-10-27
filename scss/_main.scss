@@ -259,7 +259,89 @@ main{
     }
 
     @media only screen and (max-width:768px) {
-        
+
+        #carou{
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        h1{
+            text-align: start;
+            font-size: 40px;
+        }
+
+        p{
+            text-align: start;
+            font-family: 'Berkshire Swash', cursive;
+            font-size: 18px;
+        }
+
+        .bannerSedes{
+            height: 100px;
+        }
+
+
+        h1{
+            font-size: 30px;
+        }
+
+        .btn{
+            height: 60px;
+            width: 130px;
+        }
+
+        #examInter2{
+            margin-left: 128px;
+            margin-top: 190px;
+        }
+
+
+        #textAl{
+            font-size: 16px;
+        }
+
+        #textExinter{
+            font-size: 16px;
+        }
+
+
+
+        .card{
+            height: 40vh;
+            width: 370px;
+            margin-left: 0px;
+        }
+
+
+        .img-fluid{
+            height: 180px;
+            margin-top: 25px;
+        }
+
+        .cursosText{
+            font-size: 25px;
+
+        }
+
+        #textCursos{
+            font-size: 11px;
+        }
+
+
+        #textCursos2{
+            font-size: 12px;
+        }
+
+
+        #textCursos3{
+            font-size: 11px;
+        }
+
+
+        #textCursos4{
+            font-size: 12px;     
+        }
+
     }
 
     @media only screen and (max-width:576px) {

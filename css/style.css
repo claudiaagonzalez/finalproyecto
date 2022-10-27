@@ -65,6 +65,28 @@ header .navbar-nav li a:hover {
     margin-top: 7px;
   }
 }
+@media only screen and (max-width: 768px) {
+  header #navBar {
+    width: 100vw;
+  }
+  header .navbar-nav li {
+    margin-top: 14px;
+  }
+  header .navbar-nav li a {
+    color: red !important;
+    font-size: 16px;
+  }
+  header .navbar-nav li a:hover {
+    background-color: blue !important;
+  }
+  header .navbar-nav #mediasQ {
+    margin-top: 7px;
+  }
+  header #logoBridge {
+    height: 40px;
+    width: 60px;
+  }
+}
 main {
   width: 100vw;
   height: 100vh;
@@ -258,6 +280,65 @@ main #examInter2 {
     margin-bottom: 10px;
   }
 }
+@media only screen and (max-width: 768px) {
+  main #carou {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  main h1 {
+    text-align: start;
+    font-size: 40px;
+  }
+  main p {
+    text-align: start;
+    font-family: "Berkshire Swash", cursive;
+    font-size: 18px;
+  }
+  main .bannerSedes {
+    height: 100px;
+  }
+  main h1 {
+    font-size: 30px;
+  }
+  main .btn {
+    height: 60px;
+    width: 130px;
+  }
+  main #examInter2 {
+    margin-left: 128px;
+    margin-top: 190px;
+  }
+  main #textAl {
+    font-size: 16px;
+  }
+  main #textExinter {
+    font-size: 16px;
+  }
+  main .card {
+    height: 40vh;
+    width: 370px;
+    margin-left: 0px;
+  }
+  main .img-fluid {
+    height: 180px;
+    margin-top: 25px;
+  }
+  main .cursosText {
+    font-size: 25px;
+  }
+  main #textCursos {
+    font-size: 11px;
+  }
+  main #textCursos2 {
+    font-size: 12px;
+  }
+  main #textCursos3 {
+    font-size: 11px;
+  }
+  main #textCursos4 {
+    font-size: 12px;
+  }
+}
 footer {
   width: 100vw;
   height: 10vh;
@@ -306,6 +387,12 @@ body a .float .my-float {
   }
 }
 @media only screen and (max-width: 992px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 768px) {
   body {
     width: 100vw;
     height: 100vh;
