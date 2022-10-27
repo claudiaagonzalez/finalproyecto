@@ -19,5 +19,12 @@ footer{
 
     @media only screen and (max-width:576px) {
         
+        #datos{
+
+            h2{
+                font-size: 15px;
+                text-align: start;
+            }
+        }
     }
 }

@@ -339,6 +339,74 @@ main #examInter2 {
     font-size: 12px;
   }
 }
+@media only screen and (max-width: 576px) {
+  main #carou {
+    margin-left: 0;
+    margin-top: 10;
+    height: 60vh;
+    width: 93vw;
+    margin-right: 0;
+  }
+  main h1 {
+    text-align: start;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  main .card-title {
+    font-size: 17px;
+  }
+  main p {
+    text-align: start;
+    font-family: "Berkshire Swash", cursive;
+    font-size: 15px;
+  }
+  main .card {
+    height: 47vh;
+    width: 273px;
+    margin-left: 0px;
+  }
+  main .img-fluid {
+    display: none;
+  }
+  main .cursosText {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 3px;
+  }
+  main #textCursos {
+    font-size: 13px;
+  }
+  main #textCursos2 {
+    font-size: 14px;
+  }
+  main #textCursos3 {
+    font-size: 13px;
+  }
+  main #textCursos4 {
+    font-size: 14px;
+  }
+  main .btn {
+    display: none;
+  }
+  main #examInter {
+    width: 10vw;
+  }
+  main #examInter2 {
+    margin-right: 100px;
+    margin-top: 180px;
+  }
+  main #textAl {
+    font-size: 14px;
+  }
+  main #textExinter {
+    font-size: 15px;
+    text-align: start;
+  }
+  main #infoContacto {
+    width: 500px;
+  }
+}
+
 footer {
   width: 100vw;
   height: 10vh;
@@ -354,6 +422,13 @@ footer #datos h2 {
   text-align: center;
   margin-bottom: 0;
 }
+@media only screen and (max-width: 576px) {
+  footer #datos h2 {
+    font-size: 15px;
+    text-align: start;
+  }
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -391,10 +466,27 @@ body a .float .my-float {
     width: 100vw;
     height: 100vh;
   }
+  body .float {
+    right: 90px;
+  }
 }
 @media only screen and (max-width: 768px) {
   body {
     width: 100vw;
     height: 100vh;
+  }
+  body .float {
+    right: 65px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  body .float {
+    right: 50px;
+    width: 50px;
+    height: 60px;
   }
 }/*# sourceMappingURL=style.css.map */

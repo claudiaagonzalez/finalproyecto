@@ -304,8 +304,6 @@ main{
             font-size: 16px;
         }
 
-
-
         .card{
             height: 40vh;
             width: 370px;
@@ -345,11 +343,88 @@ main{
     }
 
     @media only screen and (max-width:576px) {
+
+        #carou{
+            margin-left: 0;
+            margin-top: 10;
+            height: 60vh;
+            width: 93vw;
+            margin-right: 0;
+        }
+
+        h1{
+            text-align: start;
+            font-size: 40px;
+            margin-bottom: 40px;
+        }
+
+        .card-title{
+            font-size: 17px;
+        }
+
+        p{
+            text-align: start;
+            font-family: 'Berkshire Swash', cursive;
+            font-size: 15px;
+        }
+
+        .card{
+            height: 47vh;
+            width: 273px;
+            margin-left: 0px;
+        }
+
+        .img-fluid{
+            display: none;
+        }
+
+        .cursosText{
+            font-size: 25px;
+            text-align: center;
+            margin-bottom: 3px;
+        }
+
+        #textCursos{
+            font-size: 13px;
+        }
+
+        #textCursos2{
+            font-size: 14px;
+        }
+
+        #textCursos3{
+            font-size: 13px;
+        }
+
+        #textCursos4{
+            font-size: 14px;     
+        }
+
+        .btn{
+            display: none;
+        }
+
+        #examInter{
+            width: 10vw;
+        }
+
+        #examInter2{
+            margin-right: 100px;
+            margin-top: 180px;
+        }
+
+        #textAl{
+            font-size: 14px;
+        }
+
+        #textExinter{
+            font-size: 15px;
+            text-align: start;
+        }
+
+        #infoContacto{
+            width: 500px;
+        }
         
     }
-
-
-
-
-
 }
