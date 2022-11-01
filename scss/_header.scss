@@ -1,35 +1,39 @@
 header{
     width: 100vw;
-    height: 13vh;
+    height: 10vh;
 
 
     #navBar {
         width: 100vw;
+        height: 10vh;
         z-index: 100;
-        box-shadow: 7px 5px 5px;
+        border: 1px solid rgb(230, 226, 226);
         margin-bottom: 5px;
-        background: red;
+        background: #FFFFFF;
+        position:fixed;
     }
 
+
     #logoBridge {
-        width: 85px;
-        height: 55px;
-        margin-right: 100px;
-        border: 0.5px solid black;
-        border-radius: 15%;
+        width: 75px;
+        height: 63px;
+        margin-right: 80px;
+        margin-left: 50px;
     }
 
     .navbar-nav{
         li {
-            margin-right: 100px;
             margin-bottom: 5px;
+            margin-right: 100px;
+            margin-left: 25px;
 
             a{
-                color: white !important;
-                font-size: 20px;
+                color: grey !important;
+                font-size: 17px;
 
                 &:hover{
-                    background-color: blue;
+                    background-color: #032615;
+                    color: white !important;
                 }
             }
         }

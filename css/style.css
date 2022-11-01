@@ -1,31 +1,34 @@
 header {
   width: 100vw;
-  height: 13vh;
+  height: 10vh;
 }
 header #navBar {
   width: 100vw;
+  height: 10vh;
   z-index: 100;
-  box-shadow: 7px 5px 5px;
+  border: 1px solid rgb(230, 226, 226);
   margin-bottom: 5px;
-  background: red;
+  background: #FFFFFF;
+  position: fixed;
 }
 header #logoBridge {
-  width: 85px;
-  height: 55px;
-  margin-right: 100px;
-  border: 0.5px solid black;
-  border-radius: 15%;
+  width: 75px;
+  height: 63px;
+  margin-right: 80px;
+  margin-left: 50px;
 }
 header .navbar-nav li {
-  margin-right: 100px;
   margin-bottom: 5px;
+  margin-right: 100px;
+  margin-left: 25px;
 }
 header .navbar-nav li a {
-  color: white !important;
-  font-size: 20px;
+  color: grey !important;
+  font-size: 17px;
 }
 header .navbar-nav li a:hover {
-  background-color: blue;
+  background-color: #032615;
+  color: white !important;
 }
 @media only screen and (max-width: 1200px) {
   header #navBar {
@@ -142,8 +145,12 @@ main .card {
   margin-left: 20px;
 }
 main .card:hover {
-  transform: translate(20px);
+  -webkit-transform: translate(20px);
+          transform: translate(20px);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
   transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
 }
 main #examInter {
   margin-top: 20px;
@@ -409,8 +416,8 @@ main #examInter2 {
 
 footer {
   width: 100vw;
-  height: 10vh;
-  background: rgb(24, 24, 247);
+  height: 13vh;
+  background: #032615;
 }
 footer #datos {
   margin-top: 10px;
@@ -432,6 +439,7 @@ footer #datos h2 {
 body {
   width: 100vw;
   height: 100vh;
+  background: white;
 }
 body a .float {
   position: fixed;
@@ -444,7 +452,8 @@ body a .float {
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  box-shadow: 2px 2px 3px #999;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
   z-index: 100;
 }
 body a .float:hover {
@@ -489,4 +498,4 @@ body a .float .my-float {
     width: 50px;
     height: 60px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
