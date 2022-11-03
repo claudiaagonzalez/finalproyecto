@@ -11,6 +11,10 @@ main{
         font-size: 30px;
     }
 
+    #location{
+        align-items: center;
+    }
+
     #textIndx{
         font-size: 38px;
         margin-top: 3px;
@@ -75,17 +79,17 @@ main{
 
     .bannerSedes{
         background:#032615;
-        height: 170px;
+        height: 115px;
     }
 
     .fontSedes{
         color: #08532f;
         text-align: center;
-        font-size: 120px;
+        font-size: 110px;
     }
 
     .contactoText{
-        color: blue;
+        color: #032615;
         font-size: 25px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
@@ -95,10 +99,12 @@ main{
         background: #032615;
         border-radius: 20px 20px 20px 20px;
 
+
         &:hover{
             color: white;
         }
     }
+
 
     #infoContacto{
         border: 0.5px solid #032615;
