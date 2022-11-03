@@ -342,6 +342,19 @@ main #examInter2 {
   main .bannerSedes2 {
     display: none;
   }
+  main .bannerSedes2 {
+    background: #032615;
+    height: 270px;
+    margin-bottom: 5px;
+  }
+  main #mapLocation {
+    display: none;
+  }
+  main #location {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   main p {
     text-align: start;
   }
@@ -381,37 +394,19 @@ main #examInter2 {
     font-size: 20px;
     text-align: center;
   }
-  main .textEmpresa {
-    font-size: 45px;
-  }
-  main .textCapa {
-    text-align: center;
-  }
-  main #empresarios {
-    width: 100vw;
-    height: 40vh;
-  }
   main #fotoEmpresa {
-    width: 50vw;
-    height: 50vh;
-  }
-  main .bannerSedes2 {
-    background: #032615;
-    height: 270px;
-    margin-bottom: 5px;
-  }
-  main #mapLocation {
-    display: none;
-  }
-  main #location {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    width: 40vw;
+    height: 40vh;
+    margin-left: 400px;
   }
 }
 @media only screen and (max-width: 992px) {
   main h1 {
     font-size: 40px;
+  }
+  main .card {
+    width: 47vw;
+    margin-left: 10px;
   }
   main .card-text {
     font-size: 20px;
@@ -444,16 +439,6 @@ main #examInter2 {
   main #textCursos4 {
     font-size: 15px;
   }
-  main .bannerSedes {
-    height: 110px;
-  }
-  main .fontSedes {
-    font-size: 70px;
-  }
-  main .card {
-    width: 47vw;
-    margin-left: 10px;
-  }
   main #examInter {
     height: 30px;
     margin-top: 0;
@@ -479,6 +464,21 @@ main #examInter2 {
     font-family: "Berkshire Swash", cursive;
     text-align: center;
     margin-bottom: 10px;
+  }
+  main .bannerSedes {
+    height: 110px;
+  }
+  main .fontSedes {
+    font-size: 70px;
+  }
+  main #fotoEmpresa {
+    width: 30vw;
+    height: 30vh;
+    margin-left: 390px;
+  }
+  main .textCapa {
+    font-size: 16px;
+    text-align: start;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -554,6 +554,19 @@ main #examInter2 {
   main #textCursos {
     font-size: 12px;
     text-align: center;
+  }
+  main #fotoEmpresa {
+    width: 40vw;
+    height: 30vh;
+    margin-left: 250px;
+  }
+  main .textCapa {
+    font-size: 16px;
+    text-align: start;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  main .textEmpresa {
+    font-size: 30px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -632,13 +645,14 @@ main #examInter2 {
   }
   main #examInter {
     width: 10vw;
+    margin: 0;
   }
   main #examInter2 {
-    margin-right: 90px;
+    margin-right: 0;
     margin-top: 180px;
   }
   main #textAl {
-    font-size: 14px;
+    font-size: 12px;
   }
   main #textExinter {
     font-size: 13px;
@@ -646,6 +660,17 @@ main #examInter2 {
   }
   main #infoContacto {
     width: 500px;
+  }
+  main #fotoEmpresa {
+    display: none;
+  }
+  main .textCapa {
+    font-size: 16px;
+    text-align: start;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  main .textEmpresa {
+    font-size: 30px;
   }
 }
 

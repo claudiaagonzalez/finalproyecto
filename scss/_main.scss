@@ -260,8 +260,6 @@ main{
             font-size: 16px;
         }
 
-       // ---cursos---
-
         .card{
             width: 47vw;
             height: 45vh;
@@ -272,6 +270,8 @@ main{
             height: 40vh;
             margin-top: 15px;
         }
+
+        // ---cursos---
 
         .cursosText{
             font-size: 30px;
@@ -320,13 +320,25 @@ main{
             display: none;
         }
 
+        .bannerSedes2{
+            background:#032615;
+            height: 270px;
+            margin-bottom: 5px;
+        }
+
         // ---contacto---
 
+        #mapLocation{
+            display: none;
+        }
+
+        #location{
+            align-items: center;
+        }
 
         p{
             text-align: start;
         }
-    
     
         .bannerSedes{
             background:#032615;
@@ -334,13 +346,11 @@ main{
             margin-bottom: 5px;
         }
     
-    
         .fontSedes{
             color: #08532f;
             text-align: center;
             font-size: 110px;
         }
-    
     
         .contactoText{
             color: #032615;
@@ -376,52 +386,28 @@ main{
             font-size: 20px;
             text-align: center;
         }
-    
-    
-        .textEmpresa{
-            font-size: 45px;
-        }
-    
-    
-        .textCapa{
-            text-align: center;
-        }
-    
-    
-        #empresarios{
-            width: 100vw;
-            height: 40vh;
-        }
-    
-    
-    
+
+        // ---capacitaciones---
     
         #fotoEmpresa{
-            width: 50vw;
-            height: 50vh;
-        }
-    
-    
-        .bannerSedes2{
-            background:#032615;
-            height: 270px;
-            margin-bottom: 5px;
-        }
-    
-        #mapLocation{
-            display: none;
-        }
-
-        #location{
-            align-items: center;
+            width: 40vw;
+            height: 40vh;
+            margin-left: 400px;
         }
     }
 
 
     @media only screen and (max-width: 992px) {
 
+        // ---index---
+
         h1{
             font-size: 40px;
+        } 
+        
+        .card{
+            width: 47vw;
+            margin-left: 10px;
         }
 
         .card-text{
@@ -434,24 +420,23 @@ main{
 
         #carD2{
             width: 25vw;
-
         }
 
         #carD3{
             width: 25vw;
         }
 
+        // ---cursos---
+
 
         .cursosText{
             font-size: 25px;
         }
     
-
         p{
             text-align: center;
             font-size: 20px;
         }
-
 
         #textCursos{
             font-size: 13px;
@@ -473,26 +458,6 @@ main{
             
         }
 
-
-        .bannerSedes{
-            height: 110px;
-        }
-    
-
-        .fontSedes{
-            font-size: 70px;
-        }
-
-
-        // ---cursos---
-
-
-        .card{
-            width: 47vw;
-            margin-left: 10px;
-        }
-
-
         // ---exámenes---
 
 
@@ -507,15 +472,15 @@ main{
             margin-top: 160px;
         }
 
-
         #textAl{
             font-size: 17px;
         }
 
-
         #textExinter{
             font-size: 17px;
         }
+
+        // ---contacto----
 
         #infoContacto{
             width: 600px;
@@ -523,12 +488,32 @@ main{
             margin-top: 30px;
         }
 
-
         .contactoText{
             font-size: 30px;
             font-family: 'Berkshire Swash', cursive;
             text-align: center;
             margin-bottom: 10px;
+        }        
+        
+        .bannerSedes{
+            height: 110px;
+        }
+    
+        .fontSedes{
+            font-size: 70px;
+        }
+
+        // ---capacitaciones---
+
+        #fotoEmpresa{
+            width: 30vw;
+            height: 30vh;
+            margin-left: 390px;
+        }
+
+        .textCapa{
+            font-size: 16px;
+            text-align: start;
         }
     }
 
@@ -634,6 +619,23 @@ main{
             font-size: 12px;
             text-align: center;
         }
+
+        // ---capacitaciones---
+        #fotoEmpresa{
+            width: 40vw;
+            height: 30vh;
+            margin-left: 250px;
+        }
+
+        .textCapa{
+            font-size: 16px;
+            text-align: start;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .textEmpresa{
+            font-size: 30px;
+        }
     }
 
     @media only screen and (max-width:576px) {
@@ -736,15 +738,16 @@ main{
 
         #examInter{
             width: 10vw;
+            margin: 0;
         }
 
         #examInter2{
-            margin-right: 90px;
+            margin-right: 0;
             margin-top: 180px;
         }
 
         #textAl{
-            font-size: 14px;
+            font-size: 12px;
         }
 
         #textExinter{
@@ -756,6 +759,21 @@ main{
 
         #infoContacto{
             width: 500px;
+        }
+
+        // ---capacitaciones---
+        #fotoEmpresa{
+            display: none;
+        }
+
+        .textCapa{
+            font-size: 16px;
+            text-align: start;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .textEmpresa{
+            font-size: 30px;
         }
     }
 }
