@@ -80,6 +80,7 @@ main{
     .bannerSedes{
         background:#032615;
         height: 115px;
+        margin-bottom: 5px;
     }
 
     .fontSedes{
@@ -119,6 +120,29 @@ main{
     .infoContacto{
         font-size: 20px;
         text-align: center;
+    }
+
+    .textEmpresa{
+        font-size: 45px;
+    }
+
+    #bannerEmpresa2{
+        width: 60vw;
+        height: 50vh;
+    }
+
+    .textCapa{
+        text-align: center;
+    }
+
+    #empresarios{
+        width: 100vw;
+        height: 40vh;
+    }
+
+    #fotoEmpresa{
+        width: 50vw;
+        height: 50vh;
     }
 
     // .card{

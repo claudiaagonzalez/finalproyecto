@@ -168,6 +168,7 @@ main p {
 main .bannerSedes {
   background: #032615;
   height: 115px;
+  margin-bottom: 5px;
 }
 main .fontSedes {
   color: #08532f;
@@ -199,6 +200,24 @@ main #infoContacto {
 main .infoContacto {
   font-size: 20px;
   text-align: center;
+}
+main .textEmpresa {
+  font-size: 45px;
+}
+main #bannerEmpresa2 {
+  width: 60vw;
+  height: 50vh;
+}
+main .textCapa {
+  text-align: center;
+}
+main #empresarios {
+  width: 100vw;
+  height: 40vh;
+}
+main #fotoEmpresa {
+  width: 50vw;
+  height: 50vh;
 }
 main #examInter {
   margin-top: 20px;
