@@ -294,10 +294,35 @@ main{
             text-align: center;
         }
 
-        // ---capacitaciones---
+        // ---exámenes---
 
-
+        #examInter{
+            margin: 0;
+        }
     
+        #examInter2{
+            margin: 0;
+        }
+
+        .examenesIconos {
+            display: none;
+        }
+    
+        .examenesIconos1{
+            display: none;
+        }
+
+        #examenesAvala{
+            display: none;
+        }
+
+        .bannerSedes2{
+            display: none;
+        }
+
+        // ---contacto---
+
+
         p{
             text-align: start;
         }
@@ -358,12 +383,6 @@ main{
         }
     
     
-        #bannerEmpresa2{
-            width: 60vw;
-            height: 50vh;
-        }
-    
-    
         .textCapa{
             text-align: center;
         }
@@ -375,30 +394,6 @@ main{
         }
     
     
-        .examenesIconos {
-            width: 20vw;
-            margin-top: 3px;
-            height: 20vh;
-            margin-left: 70px;
-    
-            &:hover{
-                transform: translate(20px);
-                transition: transform 1s;
-            }
-        }
-    
-    
-        .examenesIconos1{
-            width: 15vw;
-            height: 30vh;
-            margin-top:0;
-            margin-left: 50px;
-    
-            &:hover{
-                transform: translate(20px);
-                transition: transform 1s;
-            }
-        }
     
     
         #fotoEmpresa{
@@ -413,21 +408,6 @@ main{
             margin-bottom: 5px;
         }
     
-    
-        #examenesAvala{
-            color: white;
-            font-size: 35px;
-        }
-    
-    
-        #examInter{
-            margin-top: 20px;
-        }
-    
-        #examInter2{
-            margin-top: 20px;
-        }
-    
         #mapLocation{
             display: none;
         }
@@ -435,7 +415,6 @@ main{
         #location{
             align-items: center;
         }
-
     }
 
 
@@ -556,7 +535,7 @@ main{
     @media only screen and (max-width:768px) {
 
 
-        // ---cursos---
+        // ---index---
 
         .card{
             width: 45vw;
@@ -567,29 +546,6 @@ main{
         .img-fluid{
             display: none;
         }
-
-        .cursosText{
-            font-size: 10px;
-            text-align: start;
-        }
-
-        #textCursos4{
-            font-size: 11px;
-            text-align: center;
-        }
-        #textCursos3{
-            font-size: 13px;
-            text-align: start;
-        }
-        #textCursos2{
-            font-size: 12px;
-            text-align: center;
-        }
-        #textCursos{
-            font-size: 15px;
-            text-align: center;
-        }
-
 
         .card-text{
             font-size: 20px;
@@ -625,11 +581,6 @@ main{
             font-size: 18px;
         }
 
-        .bannerSedes{
-            height: 100px;
-        }
-
-
         h1{
             font-size: 30px;
         }
@@ -639,45 +590,50 @@ main{
             width: 130px;
         }
 
+        // ---contacto---
+
+        .bannerSedes{
+            height: 100px;
+        }
+
+        // ---exámenes---
+
         #examInter2{
-            margin-left: 128px;
+            margin-left: 60px;
             margin-top: 190px;
         }
 
-
         #textAl{
-            font-size: 16px;
+            font-size: 15px;
         }
 
         #textExinter{
-            font-size: 16px;
+            font-size: 15px;
+            text-align: center;
         }
 
+        // ---cursos---
 
         .cursosText{
             font-size: 25px;
-
         }
-
-        #textCursos{
-            font-size: 11px;
-        }
-
-
-        #textCursos2{
-            font-size: 12px;
-        }
-
-
-        #textCursos3{
-            font-size: 11px;
-        }
-
 
         #textCursos4{
-            font-size: 12px;     
+            font-size: 12px;
+            text-align: center;
         }
-
+        #textCursos3{
+            font-size: 11px;
+            text-align: start;
+        }
+        #textCursos2{
+            font-size: 12px;
+            text-align: center;
+        }
+        #textCursos{
+            font-size: 12px;
+            text-align: center;
+        }
     }
 
     @media only screen and (max-width:576px) {
@@ -709,6 +665,7 @@ main{
             text-align: center;
         }
 
+        // ---index---
 
         .indexx{
             font-size: 50px;
@@ -771,27 +728,7 @@ main{
             display: none;
         }
 
-        .cursosText{
-            font-size: 25px;
-            text-align: center;
-            margin-bottom: 3px;
-        }
-
-        #textCursos{
-            font-size: 13px;
-        }
-
-        #textCursos2{
-            font-size: 14px;
-        }
-
-        #textCursos3{
-            font-size: 13px;
-        }
-
-        #textCursos4{
-            font-size: 14px;     
-        }
+        // ---exámenes---
 
         .btn{
             display: none;
@@ -802,7 +739,7 @@ main{
         }
 
         #examInter2{
-            margin-right: 100px;
+            margin-right: 90px;
             margin-top: 180px;
         }
 
@@ -811,9 +748,11 @@ main{
         }
 
         #textExinter{
-            font-size: 15px;
+            font-size: 13px;
             text-align: start;
         }
+
+        // ---contacto---
 
         #infoContacto{
             width: 500px;

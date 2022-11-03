@@ -324,6 +324,24 @@ main #examInter2 {
     font-size: 16px;
     text-align: center;
   }
+  main #examInter {
+    margin: 0;
+  }
+  main #examInter2 {
+    margin: 0;
+  }
+  main .examenesIconos {
+    display: none;
+  }
+  main .examenesIconos1 {
+    display: none;
+  }
+  main #examenesAvala {
+    display: none;
+  }
+  main .bannerSedes2 {
+    display: none;
+  }
   main p {
     text-align: start;
   }
@@ -366,44 +384,12 @@ main #examInter2 {
   main .textEmpresa {
     font-size: 45px;
   }
-  main #bannerEmpresa2 {
-    width: 60vw;
-    height: 50vh;
-  }
   main .textCapa {
     text-align: center;
   }
   main #empresarios {
     width: 100vw;
     height: 40vh;
-  }
-  main .examenesIconos {
-    width: 20vw;
-    margin-top: 3px;
-    height: 20vh;
-    margin-left: 70px;
-  }
-  main .examenesIconos:hover {
-    -webkit-transform: translate(20px);
-            transform: translate(20px);
-    -webkit-transition: -webkit-transform 1s;
-    transition: -webkit-transform 1s;
-    transition: transform 1s;
-    transition: transform 1s, -webkit-transform 1s;
-  }
-  main .examenesIconos1 {
-    width: 15vw;
-    height: 30vh;
-    margin-top: 0;
-    margin-left: 50px;
-  }
-  main .examenesIconos1:hover {
-    -webkit-transform: translate(20px);
-            transform: translate(20px);
-    -webkit-transition: -webkit-transform 1s;
-    transition: -webkit-transform 1s;
-    transition: transform 1s;
-    transition: transform 1s, -webkit-transform 1s;
   }
   main #fotoEmpresa {
     width: 50vw;
@@ -413,16 +399,6 @@ main #examInter2 {
     background: #032615;
     height: 270px;
     margin-bottom: 5px;
-  }
-  main #examenesAvala {
-    color: white;
-    font-size: 35px;
-  }
-  main #examInter {
-    margin-top: 20px;
-  }
-  main #examInter2 {
-    margin-top: 20px;
   }
   main #mapLocation {
     display: none;
@@ -514,26 +490,6 @@ main #examInter2 {
   main .img-fluid {
     display: none;
   }
-  main .cursosText {
-    font-size: 10px;
-    text-align: start;
-  }
-  main #textCursos4 {
-    font-size: 11px;
-    text-align: center;
-  }
-  main #textCursos3 {
-    font-size: 13px;
-    text-align: start;
-  }
-  main #textCursos2 {
-    font-size: 12px;
-    text-align: center;
-  }
-  main #textCursos {
-    font-size: 15px;
-    text-align: center;
-  }
   main .card-text {
     font-size: 20px;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -559,9 +515,6 @@ main #examInter2 {
     font-family: "Berkshire Swash", cursive;
     font-size: 18px;
   }
-  main .bannerSedes {
-    height: 100px;
-  }
   main h1 {
     font-size: 30px;
   }
@@ -569,30 +522,38 @@ main #examInter2 {
     height: 60px;
     width: 130px;
   }
+  main .bannerSedes {
+    height: 100px;
+  }
   main #examInter2 {
-    margin-left: 128px;
+    margin-left: 60px;
     margin-top: 190px;
   }
   main #textAl {
-    font-size: 16px;
+    font-size: 15px;
   }
   main #textExinter {
-    font-size: 16px;
+    font-size: 15px;
+    text-align: center;
   }
   main .cursosText {
     font-size: 25px;
   }
-  main #textCursos {
-    font-size: 11px;
-  }
-  main #textCursos2 {
+  main #textCursos4 {
     font-size: 12px;
+    text-align: center;
   }
   main #textCursos3 {
     font-size: 11px;
+    text-align: start;
   }
-  main #textCursos4 {
+  main #textCursos2 {
     font-size: 12px;
+    text-align: center;
+  }
+  main #textCursos {
+    font-size: 12px;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -666,23 +627,6 @@ main #examInter2 {
   main .img-fluid {
     display: none;
   }
-  main .cursosText {
-    font-size: 25px;
-    text-align: center;
-    margin-bottom: 3px;
-  }
-  main #textCursos {
-    font-size: 13px;
-  }
-  main #textCursos2 {
-    font-size: 14px;
-  }
-  main #textCursos3 {
-    font-size: 13px;
-  }
-  main #textCursos4 {
-    font-size: 14px;
-  }
   main .btn {
     display: none;
   }
@@ -690,14 +634,14 @@ main #examInter2 {
     width: 10vw;
   }
   main #examInter2 {
-    margin-right: 100px;
+    margin-right: 90px;
     margin-top: 180px;
   }
   main #textAl {
     font-size: 14px;
   }
   main #textExinter {
-    font-size: 15px;
+    font-size: 13px;
     text-align: start;
   }
   main #infoContacto {
