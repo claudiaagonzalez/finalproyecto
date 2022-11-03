@@ -2,7 +2,6 @@ main{
     width: 100vw;
     height: 100vh;
 
-        
     h1{
         font-family: 'Berkshire Swash', cursive;
         text-align: center;
@@ -27,17 +26,20 @@ main{
         margin-bottom: 3px;
     }
 
+
     #card2{
         height: 43 vh;
         margin-bottom: 5px;
         margin-top: 5px;
         align-items: center;
     }
+
     
     #carD2{
         width: 35vw;
         margin-top: 3px;
     }
+
 
     #card3{
         height: 43vh;
@@ -46,10 +48,12 @@ main{
         align-items: center;
     }
 
+
     #carD3{
         width: 35vw;
         margin-top: 3px;
     }
+
 
     #featuresBridge{
         width: 100vw;
@@ -57,6 +61,7 @@ main{
         background: #032615;
         display: flex;
     }
+
 
     .featuBridge{
         margin-right: 15px;
@@ -68,6 +73,7 @@ main{
         }
     }
 
+
     .ftexto{
         color: white;
     }
@@ -77,11 +83,13 @@ main{
         text-align: start;
     }
 
+
     .bannerSedes{
         background:#032615;
         height: 115px;
         margin-bottom: 5px;
     }
+
 
     .fontSedes{
         color: #08532f;
@@ -89,11 +97,13 @@ main{
         font-size: 110px;
     }
 
+
     .contactoText{
         color: #032615;
         font-size: 25px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+
 
     .btn{
         color: white;
@@ -117,47 +127,66 @@ main{
         margin-left: 10px;
     }
 
+
     .infoContacto{
         font-size: 20px;
         text-align: center;
     }
 
+
     .textEmpresa{
         font-size: 45px;
     }
+
 
     #bannerEmpresa2{
         width: 60vw;
         height: 50vh;
     }
 
+
     .textCapa{
         text-align: center;
     }
+
 
     #empresarios{
         width: 100vw;
         height: 40vh;
     }
 
-    .examenesIconos{
+
+    .examenesIconos {
         width: 20vw;
         margin-top: 3px;
         height: 20vh;
         margin-left: 70px;
+
+        &:hover{
+            transform: translate(20px);
+            transition: transform 1s;
+        }
     }
+
 
     .examenesIconos1{
         width: 15vw;
         height: 30vh;
         margin-top:0;
         margin-left: 50px;
+
+        &:hover{
+            transform: translate(20px);
+            transition: transform 1s;
+        }
     }
+
 
     #fotoEmpresa{
         width: 50vw;
         height: 50vh;
     }
+
 
     .bannerSedes2{
         background:#032615;
@@ -165,19 +194,12 @@ main{
         margin-bottom: 5px;
     }
 
+
     #examenesAvala{
         color: white;
         font-size: 35px;
     }
-
-    // .card{
-    //     margin-left: 20px;
-
-    //     &:hover{
-    //         transform: translate(20px);
-    //         transition: transform 1s;
-    //     }
-    // }
+    
 
     #examInter{
         margin-top: 20px;
