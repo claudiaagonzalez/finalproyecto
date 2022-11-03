@@ -35,61 +35,57 @@ header .navbar-nav li a:hover {
   header #navBar {
     background: #FFFFFF;
     width: 100vw;
-    height: 10vh;
+    height: 13vh;
   }
   header #logoBridge {
-    height: 45px;
-    width: 65px;
+    height: 60px;
+    width: 50px;
   }
   header .navbar-nav li {
-    text-align: center;
-    margin-top: 10px;
+    margin-right: 50px;
+  }
+  header .navbar-nav li a {
+    color: grey !important;
+    font-size: 18px;
   }
   header .navbar-nav li a:hover {
     background-color: #032615;
+    color: white !important;
   }
 }
 @media only screen and (max-width: 992px) {
   header #navBar {
-    width: 100vw;
     background: #FFFFFF;
+    width: 100vw;
+    height: 13vh;
   }
-  header .navbar-nav li {
-    margin-top: 14px;
-  }
-  header .navbar-nav li a {
-    font-size: 16px;
-  }
-  header .navbar-nav li a:hover {
-    background-color: #032615;
-  }
-  header .navbar-nav #mediasQ {
-    margin-top: 7px;
+  header #logoBridge {
+    height: 60px;
+    width: 50px;
   }
 }
 @media only screen and (max-width: 768px) {
   header #navBar {
     width: 100vw;
     background: #FFFFFF;
+    z-index: 100;
   }
-  header .navbar-nav li {
-    margin-top: 14px;
-  }
-  header .navbar-nav li a {
-    color: red !important;
-    font-size: 16px;
-  }
-  header .navbar-nav li a:hover {
-    background-color: #032615 !important;
-  }
-  header .navbar-nav #mediasQ {
-    margin-top: 7px;
+  header #logoBridge {
+    height: 60px;
+    width: 30px;
   }
   header #logoBridge {
     height: 40px;
     width: 60px;
   }
 }
+@media only screen and (max-width: 576px) {
+  header #logoBridge {
+    height: 30px;
+    width: 30px;
+  }
+}
+
 main {
   width: 100vw;
   height: 100vh;
@@ -519,7 +515,7 @@ main #examInter2 {
 }
 @media only screen and (max-width: 576px) {
   main .cursosText {
-    font-size: 5px;
+    font-size: 30px;
     text-align: start;
     margin-top: 0;
     margin-bottom: 0;

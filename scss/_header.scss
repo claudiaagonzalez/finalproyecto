@@ -45,24 +45,25 @@ header{
         #navBar {
             background: #FFFFFF;
             width: 100vw;
-            height: 10vh;
+            height: 13vh;
         }
 
         #logoBridge {
-            height: 45px;
-            width: 65px;
+            height: 60px;
+            width: 50px;
         }
 
         .navbar-nav{
-
-            li{
-                text-align: center;
-                margin-top: 10px;
-
+            li {
+                margin-right: 50px;
+    
                 a{
-
+                    color: grey !important;
+                    font-size: 18px;
+    
                     &:hover{
                         background-color: #032615;
+                        color: white !important;
                     }
                 }
             }
@@ -71,54 +72,30 @@ header{
 
     @media only screen and (max-width: 992px) {
 
-        #navBar{
-            width: 100vw;
+        #navBar {
             background: #FFFFFF;
+            width: 100vw;
+            height: 13vh;
         }
 
-        .navbar-nav{
-            li{
-                margin-top: 14px;
-
-                a{
-                    font-size: 16px;
-
-                    &:hover{
-                        background-color: #032615;
-                    }
-                }    
-            }
-
-            #mediasQ{
-                    margin-top: 7px;
-                }
+        #logoBridge {
+            height: 60px;
+            width: 50px;
         }
     }
+    
 
     @media only screen and (max-width:768px) {
 
         #navBar{
             width: 100vw;
             background: #FFFFFF;
+            z-index: 100;
         }
 
-        .navbar-nav{
-            li{
-                margin-top: 14px;
-
-                a{
-                    color: red !important;
-                    font-size: 16px;
-
-                    &:hover{
-                        background-color: #032615 !important;
-                    }
-                }    
-            }
-
-            #mediasQ{
-                    margin-top: 7px;
-                }
+        #logoBridge {
+            height: 60px;
+            width: 30px;
         }
 
         #logoBridge{
@@ -129,6 +106,11 @@ header{
     }
 
     @media only screen and (max-width:576px) {
+
+        #logoBridge{
+            height: 30px;
+            width: 30px;
+        }
 
     }
 }
