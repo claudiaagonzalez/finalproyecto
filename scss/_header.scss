@@ -1,11 +1,11 @@
 header{
     width: 100vw;
-    height: 10vh;
+    height: 13vh;
 
 
     #navBar {
         width: 100vw;
-        height: 10vh;
+        height: 13vh;
         z-index: 100;
         border: 1px solid rgb(230, 226, 226);
         margin-bottom: 5px;
@@ -15,8 +15,8 @@ header{
 
 
     #logoBridge {
-        width: 75px;
-        height: 63px;
+        width: 70px;
+        height: 66px;
         margin-right: 80px;
         margin-left: 50px;
     }
@@ -42,7 +42,7 @@ header{
     @media only screen and (max-width: 1200px) {
 
         #navBar {
-            background: blue;
+            background: #FFFFFF;
             width: 100vw;
             height: 10vh;
         }
@@ -62,7 +62,7 @@ header{
                     font-size: 18px;
 
                     &:hover{
-                        background-color: red;
+                        background-color: #032615;
                     }
                 }
             }
@@ -73,6 +73,7 @@ header{
 
         #navBar{
             width: 100vw;
+            background: #FFFFFF;
         }
 
         .navbar-nav{
@@ -83,7 +84,7 @@ header{
                     font-size: 16px;
 
                     &:hover{
-                        background-color: red;
+                        background-color: #032615;
                     }
                 }    
             }
@@ -98,6 +99,7 @@ header{
 
         #navBar{
             width: 100vw;
+            background: #FFFFFF;
         }
 
         .navbar-nav{
@@ -109,7 +111,7 @@ header{
                     font-size: 16px;
 
                     &:hover{
-                        background-color: blue !important;
+                        background-color: #032615 !important;
                     }
                 }    
             }
@@ -127,7 +129,7 @@ header{
     }
 
     @media only screen and (max-width:576px) {
-        
+
     }
 }
 
