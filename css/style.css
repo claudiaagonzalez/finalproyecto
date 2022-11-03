@@ -102,9 +102,7 @@ main h1 {
   font-size: 30px;
 }
 main #location {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 main #textIndx {
   font-size: 38px;
@@ -120,9 +118,7 @@ main #card2 {
   height: 43 vh;
   margin-bottom: 5px;
   margin-top: 5px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 main #carD2 {
   width: 35vw;
@@ -132,9 +128,7 @@ main #card3 {
   height: 43vh;
   margin-bottom: 5px;
   margin-top: 5px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 main #carD3 {
   width: 35vw;
@@ -144,8 +138,6 @@ main #featuresBridge {
   width: 100vw;
   height: 218px;
   background: #032615;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 main .featuBridge {
@@ -219,12 +211,8 @@ main .examenesIconos {
   margin-left: 70px;
 }
 main .examenesIconos:hover {
-  -webkit-transform: translate(20px);
-          transform: translate(20px);
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
+  transform: translate(20px);
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
 }
 main .examenesIconos1 {
   width: 15vw;
@@ -233,12 +221,8 @@ main .examenesIconos1 {
   margin-left: 50px;
 }
 main .examenesIconos1:hover {
-  -webkit-transform: translate(20px);
-          transform: translate(20px);
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
+  transform: translate(20px);
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
 }
 main #fotoEmpresa {
   width: 50vw;
@@ -278,8 +262,6 @@ main #examInter2 {
     width: 100vw;
     height: 150px;
     background: #032615;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   main .featuBridge {
@@ -347,52 +329,20 @@ main #examInter2 {
     height: 270px;
     margin-bottom: 5px;
   }
-  main #mapLocation {
-    display: none;
-  }
   main #location {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   main p {
     text-align: start;
   }
   main .bannerSedes {
-    background: #032615;
-    height: 115px;
-    margin-bottom: 5px;
+    height: 50px;
   }
   main .fontSedes {
-    color: #08532f;
-    text-align: center;
-    font-size: 110px;
+    font-size: 40px;
   }
   main .contactoText {
-    color: #032615;
-    font-size: 25px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-  main .btn {
-    color: white;
-    background: #032615;
-    border-radius: 20px 20px 20px 20px;
-  }
-  main .btn:hover {
-    color: white;
-  }
-  main #infoContacto {
-    border: 0.5px solid #032615;
-    border-radius: 20px 20px 20px 20px;
-    height: 70px;
-    color: #032615;
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 10px;
-  }
-  main .infoContacto {
-    font-size: 20px;
-    text-align: center;
+    font-size: 15px;
   }
   main #fotoEmpresa {
     width: 40vw;
@@ -454,22 +404,14 @@ main #examInter2 {
   main #textExinter {
     font-size: 17px;
   }
-  main #infoContacto {
-    width: 600px;
-    color: #032615;
-    margin-top: 30px;
-  }
-  main .contactoText {
-    font-size: 30px;
-    font-family: "Berkshire Swash", cursive;
-    text-align: center;
-    margin-bottom: 10px;
-  }
   main .bannerSedes {
-    height: 110px;
+    height: 50px;
   }
   main .fontSedes {
-    font-size: 70px;
+    font-size: 40px;
+  }
+  main .contactoText {
+    font-size: 14px;
   }
   main #fotoEmpresa {
     width: 30vw;
@@ -519,11 +461,17 @@ main #examInter2 {
     font-size: 30px;
   }
   main .btn {
-    height: 60px;
-    width: 130px;
+    height: 40px;
+    width: 110px;
   }
   main .bannerSedes {
-    height: 100px;
+    height: 35px;
+  }
+  main .fontSedes {
+    font-size: 25px;
+  }
+  main .contactoText {
+    font-size: 14px;
   }
   main #examInter2 {
     margin-left: 60px;
@@ -640,9 +588,6 @@ main #examInter2 {
   main .img-fluid {
     display: none;
   }
-  main .btn {
-    display: none;
-  }
   main #examInter {
     width: 10vw;
     margin: 0;
@@ -658,8 +603,11 @@ main #examInter2 {
     font-size: 13px;
     text-align: start;
   }
-  main #infoContacto {
-    width: 500px;
+  main .bannerSedes {
+    display: none;
+  }
+  main .contactoText {
+    display: none;
   }
   main #fotoEmpresa {
     display: none;
@@ -712,8 +660,7 @@ body a .float {
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  -webkit-box-shadow: 2px 2px 3px #999;
-          box-shadow: 2px 2px 3px #999;
+  box-shadow: 2px 2px 3px #999;
   z-index: 100;
 }
 body a .float:hover {
@@ -758,4 +705,4 @@ body a .float .my-float {
     width: 50px;
     height: 60px;
   }
-}
+}/*# sourceMappingURL=style.css.map */
