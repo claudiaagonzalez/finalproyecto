@@ -45,9 +45,6 @@ header .navbar-nav li a:hover {
     text-align: center;
     margin-top: 10px;
   }
-  header .navbar-nav li a {
-    font-size: 18px;
-  }
   header .navbar-nav li a:hover {
     background-color: #032615;
   }
@@ -299,6 +296,34 @@ main #examInter2 {
   main .indexText {
     font-size: 16px;
   }
+  main .card {
+    width: 47vw;
+    height: 45vh;
+    margin-left: 20px;
+  }
+  main .img-fluid {
+    height: 40vh;
+    margin-top: 15px;
+  }
+  main .cursosText {
+    font-size: 30px;
+  }
+  main #textCursos4 {
+    font-size: 17px;
+    text-align: center;
+  }
+  main #textCursos3 {
+    font-size: 15px;
+    text-align: center;
+  }
+  main #textCursos2 {
+    font-size: 16px;
+    text-align: center;
+  }
+  main #textCursos {
+    font-size: 16px;
+    text-align: center;
+  }
   main p {
     text-align: start;
   }
@@ -450,13 +475,8 @@ main #examInter2 {
     font-size: 70px;
   }
   main .card {
-    height: 45vh;
-    width: 435px;
-    margin-left: 50px;
-  }
-  main .img-fluid {
-    height: 250px;
-    margin-top: 5px;
+    width: 47vw;
+    margin-left: 10px;
   }
   main #examInter {
     height: 30px;
@@ -486,6 +506,34 @@ main #examInter2 {
   }
 }
 @media only screen and (max-width: 768px) {
+  main .card {
+    width: 45vw;
+    height: 45vh;
+    margin-left: 10px;
+  }
+  main .img-fluid {
+    display: none;
+  }
+  main .cursosText {
+    font-size: 10px;
+    text-align: start;
+  }
+  main #textCursos4 {
+    font-size: 11px;
+    text-align: center;
+  }
+  main #textCursos3 {
+    font-size: 13px;
+    text-align: start;
+  }
+  main #textCursos2 {
+    font-size: 12px;
+    text-align: center;
+  }
+  main #textCursos {
+    font-size: 15px;
+    text-align: center;
+  }
   main .card-text {
     font-size: 20px;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -531,15 +579,6 @@ main #examInter2 {
   main #textExinter {
     font-size: 16px;
   }
-  main .card {
-    height: 40vh;
-    width: 370px;
-    margin-left: 0px;
-  }
-  main .img-fluid {
-    height: 180px;
-    margin-top: 25px;
-  }
   main .cursosText {
     font-size: 25px;
   }
@@ -557,6 +596,28 @@ main #examInter2 {
   }
 }
 @media only screen and (max-width: 576px) {
+  main .cursosText {
+    font-size: 5px;
+    text-align: start;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  main #textCursos4 {
+    font-size: 11px;
+    text-align: center;
+  }
+  main #textCursos3 {
+    font-size: 12px;
+    text-align: start;
+  }
+  main #textCursos2 {
+    font-size: 12px;
+    text-align: center;
+  }
+  main #textCursos {
+    font-size: 12px;
+    text-align: center;
+  }
   main .indexx {
     font-size: 50px;
     text-align: center;

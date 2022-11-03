@@ -259,6 +259,44 @@ main{
         .indexText{
             font-size: 16px;
         }
+
+       // ---cursos---
+
+        .card{
+            width: 47vw;
+            height: 45vh;
+            margin-left: 20px;
+        }
+
+        .img-fluid{
+            height: 40vh;
+            margin-top: 15px;
+        }
+
+        .cursosText{
+            font-size: 30px;
+        }
+
+        #textCursos4{
+            font-size: 17px;
+            text-align: center;
+        }
+        #textCursos3{
+            font-size: 15px;
+            text-align: center;
+        }
+        #textCursos2{
+            font-size: 16px;
+            text-align: center;
+        }
+        #textCursos{
+            font-size: 16px;
+            text-align: center;
+        }
+
+        // ---capacitaciones---
+
+
     
         p{
             text-align: start;
@@ -467,17 +505,17 @@ main{
         }
 
 
+        // ---cursos---
+
+
         .card{
-            height: 45vh;
-            width: 435px;
-            margin-left: 50px;
+            width: 47vw;
+            margin-left: 10px;
         }
 
 
-        .img-fluid{
-            height: 250px;
-            margin-top: 5px;
-        }
+        // ---exámenes---
+
 
         #examInter{
             height: 30px;
@@ -516,6 +554,41 @@ main{
     }
 
     @media only screen and (max-width:768px) {
+
+
+        // ---cursos---
+
+        .card{
+            width: 45vw;
+            height: 45vh;
+            margin-left: 10px;
+        }
+
+        .img-fluid{
+            display: none;
+        }
+
+        .cursosText{
+            font-size: 10px;
+            text-align: start;
+        }
+
+        #textCursos4{
+            font-size: 11px;
+            text-align: center;
+        }
+        #textCursos3{
+            font-size: 13px;
+            text-align: start;
+        }
+        #textCursos2{
+            font-size: 12px;
+            text-align: center;
+        }
+        #textCursos{
+            font-size: 15px;
+            text-align: center;
+        }
 
 
         .card-text{
@@ -580,17 +653,6 @@ main{
             font-size: 16px;
         }
 
-        .card{
-            height: 40vh;
-            width: 370px;
-            margin-left: 0px;
-        }
-
-
-        .img-fluid{
-            height: 180px;
-            margin-top: 25px;
-        }
 
         .cursosText{
             font-size: 25px;
@@ -619,6 +681,34 @@ main{
     }
 
     @media only screen and (max-width:576px) {
+
+
+        // ---cursos---
+
+        .cursosText{
+            font-size: 5px;
+            text-align: start;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        #textCursos4{
+            font-size: 11px;
+            text-align: center;
+        }
+        #textCursos3{
+            font-size: 12px;
+            text-align: start;
+        }
+        #textCursos2{
+            font-size: 12px;
+            text-align: center;
+        }
+        #textCursos{
+            font-size: 12px;
+            text-align: center;
+        }
+
 
         .indexx{
             font-size: 50px;
