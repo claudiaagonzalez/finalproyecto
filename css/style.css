@@ -263,58 +263,172 @@ main #examInter2 {
   margin-top: 20px;
 }
 @media only screen and (max-width: 1200px) {
-  main h1 {
-    font-size: 30px;
+  main #card2 {
+    width: 25vw;
+  }
+  main #carD2 {
+    width: 30vw;
+    margin-top: 5px;
+  }
+  main #card3 {
+    height: 45vh;
+  }
+  main #carD3 {
+    width: 30vw;
+    margin-top: 5px;
+  }
+  main #featuresBridge {
+    width: 100vw;
+    height: 150px;
+    background: #032615;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .featuBridge {
+    margin-top: 0;
+  }
+  main .ftexto {
+    color: white;
+    font-size: 20px;
+  }
+  main #textIndx {
+    font-size: 35px;
+    margin-top: 0;
+  }
+  main .indexText {
+    font-size: 16px;
   }
   main p {
-    text-align: center;
-    font-family: "Berkshire Swash", cursive;
-    font-size: 15px;
+    text-align: start;
   }
   main .bannerSedes {
-    height: 150px;
+    background: #032615;
+    height: 115px;
+    margin-bottom: 5px;
   }
-  main .card {
-    height: 45vh;
-    width: 500px;
-    margin-left: 60px;
+  main .fontSedes {
+    color: #08532f;
+    text-align: center;
+    font-size: 110px;
   }
-  main .img-fluid {
-    height: 250px;
-    margin-top: 3px;
+  main .contactoText {
+    color: #032615;
+    font-size: 25px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
-  main #examInter {
-    width: 50px;
-    height: 30px;
+  main .btn {
+    color: white;
+    background: #032615;
+    border-radius: 20px 20px 20px 20px;
   }
-  main #examInter2 {
-    width: 50px;
-    height: 10px;
-    margin-left: 500px;
-    margin-top: 100px;
+  main .btn:hover {
+    color: white;
   }
   main #infoContacto {
     border: 0.5px solid #032615;
+    border-radius: 20px 20px 20px 20px;
     height: 70px;
-    width: 390px;
+    color: #032615;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
   }
   main .infoContacto {
-    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+  main .textEmpresa {
+    font-size: 45px;
+  }
+  main #bannerEmpresa2 {
+    width: 60vw;
+    height: 50vh;
+  }
+  main .textCapa {
+    text-align: center;
+  }
+  main #empresarios {
+    width: 100vw;
+    height: 40vh;
+  }
+  main .examenesIconos {
+    width: 20vw;
+    margin-top: 3px;
+    height: 20vh;
+    margin-left: 70px;
+  }
+  main .examenesIconos:hover {
+    -webkit-transform: translate(20px);
+            transform: translate(20px);
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+  }
+  main .examenesIconos1 {
+    width: 15vw;
+    height: 30vh;
+    margin-top: 0;
+    margin-left: 50px;
+  }
+  main .examenesIconos1:hover {
+    -webkit-transform: translate(20px);
+            transform: translate(20px);
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+  }
+  main #fotoEmpresa {
+    width: 50vw;
+    height: 50vh;
+  }
+  main .bannerSedes2 {
+    background: #032615;
+    height: 270px;
+    margin-bottom: 5px;
+  }
+  main #examenesAvala {
+    color: white;
+    font-size: 35px;
+  }
+  main #examInter {
+    margin-top: 20px;
+  }
+  main #examInter2 {
+    margin-top: 20px;
   }
   main #mapLocation {
     display: none;
+  }
+  main #location {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 @media only screen and (max-width: 992px) {
   main h1 {
     font-size: 40px;
   }
+  main .card-text {
+    font-size: 20px;
+  }
+  main .indexText {
+    font-size: 15px;
+  }
+  main #carD2 {
+    width: 25vw;
+  }
+  main #carD3 {
+    width: 25vw;
+  }
   main .cursosText {
     font-size: 25px;
   }
   main p {
     text-align: center;
-    font-family: "Berkshire Swash", cursive;
     font-size: 20px;
   }
   main #textCursos {
@@ -372,9 +486,25 @@ main #examInter2 {
   }
 }
 @media only screen and (max-width: 768px) {
-  main h1 {
-    text-align: start;
-    font-size: 40px;
+  main .card-text {
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  main .indexText {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  main #carD2 {
+    width: 25vw;
+  }
+  main .ftexto {
+    font-size: 14px;
+  }
+  main #textIndx {
+    display: none;
+  }
+  main .indexText {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
   main p {
     text-align: start;
@@ -427,6 +557,33 @@ main #examInter2 {
   }
 }
 @media only screen and (max-width: 576px) {
+  main .indexx {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 50px;
+  }
+  main .indexText {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  main #card2 {
+    display: none;
+  }
+  main #card3 {
+    display: none;
+  }
+  main .featuBridge {
+    display: none;
+  }
+  main .ftexto {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  main .indexText {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
   main h1 {
     text-align: start;
     font-size: 40px;
