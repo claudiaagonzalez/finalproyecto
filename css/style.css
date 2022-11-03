@@ -215,9 +215,30 @@ main #empresarios {
   width: 100vw;
   height: 40vh;
 }
+main .examenesIconos {
+  width: 20vw;
+  margin-top: 3px;
+  height: 20vh;
+  margin-left: 70px;
+}
+main .examenesIconos1 {
+  width: 15vw;
+  height: 30vh;
+  margin-top: 0;
+  margin-left: 50px;
+}
 main #fotoEmpresa {
   width: 50vw;
   height: 50vh;
+}
+main .bannerSedes2 {
+  background: #032615;
+  height: 270px;
+  margin-bottom: 5px;
+}
+main #examenesAvala {
+  color: white;
+  font-size: 35px;
 }
 main #examInter {
   margin-top: 20px;

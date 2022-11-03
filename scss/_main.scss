@@ -140,9 +140,34 @@ main{
         height: 40vh;
     }
 
+    .examenesIconos{
+        width: 20vw;
+        margin-top: 3px;
+        height: 20vh;
+        margin-left: 70px;
+    }
+
+    .examenesIconos1{
+        width: 15vw;
+        height: 30vh;
+        margin-top:0;
+        margin-left: 50px;
+    }
+
     #fotoEmpresa{
         width: 50vw;
         height: 50vh;
+    }
+
+    .bannerSedes2{
+        background:#032615;
+        height: 270px;
+        margin-bottom: 5px;
+    }
+
+    #examenesAvala{
+        color: white;
+        font-size: 35px;
     }
 
     // .card{
