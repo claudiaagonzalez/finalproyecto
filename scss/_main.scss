@@ -28,7 +28,7 @@ main{
 
 
     #card2{
-        height: 43 vh;
+        height: 43vh;
         margin-bottom: 5px;
         margin-top: 5px;
         align-items: center;
@@ -36,28 +36,13 @@ main{
 
     
     #carD2{
-        width: 35vw;
+        width: 300px;
         margin-top: 3px;
     }
-
-
-    #card3{
-        height: 43vh;
-        margin-bottom: 5px;
-        margin-top: 5px;
-        align-items: center;
-    }
-
-
-    #carD3{
-        width: 35vw;
-        margin-top: 3px;
-    }
-
 
     #featuresBridge{
         width: 100vw;
-        height: 218px;
+        height: 200px;
         background: #032615;
         display: flex;
     }
@@ -154,49 +139,10 @@ main{
         height: 40vh;
     }
 
-
-    .examenesIconos {
-        width: 20vw;
-        margin-top: 3px;
-        height: 20vh;
-        margin-left: 70px;
-
-        &:hover{
-            transform: translate(20px);
-            transition: transform 1s;
-        }
-    }
-
-
-    .examenesIconos1{
-        width: 15vw;
-        height: 30vh;
-        margin-top:0;
-        margin-left: 50px;
-
-        &:hover{
-            transform: translate(20px);
-            transition: transform 1s;
-        }
-    }
-
-
-    #fotoEmpresa{
-        width: 50vw;
-        height: 50vh;
-    }
-
-
     .bannerSedes2{
         background:#032615;
         height: 270px;
         margin-bottom: 5px;
-    }
-
-
-    #examenesAvala{
-        color: white;
-        font-size: 35px;
     }
 
 
@@ -207,8 +153,6 @@ main{
     #examInter2{
         margin-top: 20px;
     }
-
-
 
     // ----media queries----
 

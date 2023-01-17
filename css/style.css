@@ -98,7 +98,9 @@ main h1 {
   font-size: 30px;
 }
 main #location {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 main #textIndx {
   font-size: 38px;
@@ -111,29 +113,23 @@ main .indexText {
   margin-bottom: 3px;
 }
 main #card2 {
-  height: 43 vh;
-  margin-bottom: 5px;
-  margin-top: 5px;
-  align-items: center;
-}
-main #carD2 {
-  width: 35vw;
-  margin-top: 3px;
-}
-main #card3 {
   height: 43vh;
   margin-bottom: 5px;
   margin-top: 5px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-main #carD3 {
-  width: 35vw;
+main #carD2 {
+  width: 300px;
   margin-top: 3px;
 }
 main #featuresBridge {
   width: 100vw;
-  height: 218px;
+  height: 200px;
   background: #032615;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 main .featuBridge {
@@ -200,38 +196,10 @@ main #empresarios {
   width: 100vw;
   height: 40vh;
 }
-main .examenesIconos {
-  width: 20vw;
-  margin-top: 3px;
-  height: 20vh;
-  margin-left: 70px;
-}
-main .examenesIconos:hover {
-  transform: translate(20px);
-  transition: transform 1s;
-}
-main .examenesIconos1 {
-  width: 15vw;
-  height: 30vh;
-  margin-top: 0;
-  margin-left: 50px;
-}
-main .examenesIconos1:hover {
-  transform: translate(20px);
-  transition: transform 1s;
-}
-main #fotoEmpresa {
-  width: 50vw;
-  height: 50vh;
-}
 main .bannerSedes2 {
   background: #032615;
   height: 270px;
   margin-bottom: 5px;
-}
-main #examenesAvala {
-  color: white;
-  font-size: 35px;
 }
 main #examInter {
   margin-top: 20px;
@@ -258,6 +226,8 @@ main #examInter2 {
     width: 100vw;
     height: 150px;
     background: #032615;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   main .featuBridge {
@@ -326,7 +296,9 @@ main #examInter2 {
     margin-bottom: 5px;
   }
   main #location {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   main p {
     text-align: start;
@@ -639,66 +611,3 @@ footer #datos h2 {
     text-align: start;
   }
 }
-
-body {
-  width: 100vw;
-  height: 100vh;
-  background: white;
-}
-body a .float {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #25d366;
-  color: #FFF;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 2px 2px 3px #999;
-  z-index: 100;
-}
-body a .float:hover {
-  text-decoration: none;
-  color: #25d366;
-  background-color: #fff;
-}
-body a .float .my-float {
-  margin-top: 16px;
-}
-@media only screen and (max-width: 1200px) {
-  body {
-    width: 100vw;
-    height: 100vh;
-  }
-}
-@media only screen and (max-width: 992px) {
-  body {
-    width: 100vw;
-    height: 100vh;
-  }
-  body .float {
-    right: 90px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  body {
-    width: 100vw;
-    height: 100vh;
-  }
-  body .float {
-    right: 65px;
-  }
-}
-@media only screen and (max-width: 576px) {
-  body {
-    width: 100vw;
-    height: 100vh;
-  }
-  body .float {
-    right: 50px;
-    width: 50px;
-    height: 60px;
-  }
-}/*# sourceMappingURL=style.css.map */
